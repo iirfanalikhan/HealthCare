@@ -1,9 +1,14 @@
+::root
+{
+    --oxygen:#58668B;
+        
+}
 body
 {
     margin: 0px;
     padding: 0px;
 }
-.mythemeback
+body
 {
     background-image: url("background.svg");
     height:100vh;
@@ -13,9 +18,18 @@ body
 }
 .mythemeback img
 {
-    width: 10vw;
+    width:30vw;
 }
-.navbar
+.navbar-dark .navbar-toggler-icon {
+    background-image:  url(costumtoggler.svg);
+}
+.custom-link
 {
-     
-} 
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    
+    letter-spacing: 0.05em;
+    color: #58668B;
+}
